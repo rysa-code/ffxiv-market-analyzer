@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es2022",
+    "jsx": "react-jsx",
+    "typeRoots": [
+      "types",
+      "node_modules/@types",
+    ],
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noErrorTruncation": true,
+    "incremental": true,
+    "outDir": "./.ts-cache/",
+    "rootDir": "./src"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}

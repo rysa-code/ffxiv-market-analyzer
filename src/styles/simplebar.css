@@ -1,0 +1,8 @@
+.simplebar-scrollbar::before {
+  background-color: #63738199;
+}
+
+/* NOTE: https://github.com/Grsmto/simplebar/issues/487 */
+.simplebar-placeholder {
+  width: auto !important;
+}
